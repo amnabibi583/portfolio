@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Amna Bibi, a Computer Science Student and Aspiring Software Engineer.">
+  <title>Amna Bibi | Aspiring Software Engineer</title>
+  <style>
+    :root { --ink:#172033; --muted:#5f6b7a; --paper:#f7f9fc; --card:#fff; --accent:#635bff; --accent-dark:#453dca; --line:#e5e9f2; --shadow:0 18px 50px rgba(38,49,84,.10); }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--paper); line-height:1.6; }
+    a { color:inherit; }
+    .wrap { width:min(1080px, calc(100% - 40px)); margin:auto; }
+    header { padding:22px 0; background:rgba(247,249,252,.92); }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { font-weight:800; letter-spacing:-.04em; font-size:1.25rem; text-decoration:none; }
+    .nav-links { display:flex; gap:24px; list-style:none; padding:0; margin:0; font-size:.95rem; color:var(--muted); }
+    .nav-links a { text-decoration:none; } .nav-links a:hover { color:var(--accent); }
+    .hero { padding:100px 0 110px; background:linear-gradient(135deg,#f7f9fc 45%,#ecebff); }
+    .eyebrow { color:var(--accent-dark); text-transform:uppercase; letter-spacing:.15em; font-size:.78rem; font-weight:800; }
+    h1,h2,h3,p { margin-top:0; } h1 { font-size:clamp(2.7rem,8vw,5.8rem); line-height:1; letter-spacing:-.07em; max-width:800px; margin:14px 0 24px; }
+    h2 { font-size:clamp(2rem,4vw,3rem); line-height:1.1; letter-spacing:-.05em; margin-bottom:18px; } h3 { margin-bottom:8px; }
+    .hero p { max-width:650px; font-size:1.15rem; color:var(--muted); }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; border:1px solid var(--accent); border-radius:999px; padding:11px 18px; font-weight:750; text-decoration:none; transition:.2s ease; }
+    .button.primary { background:var(--accent); color:white; } .button:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(99,91,255,.22); } .button.secondary { color:var(--accent-dark); }
+    section { padding:92px 0; } .section-intro { color:var(--muted); max-width:650px; }
+    .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:22px; margin-top:32px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:28px; box-shadow:var(--shadow); } .card p { color:var(--muted); }
+    .label { color:var(--accent-dark); font-weight:800; font-size:.8rem; text-transform:uppercase; letter-spacing:.1em; }
+    .skills { display:flex; flex-wrap:wrap; gap:9px; margin-top:18px; } .skill { border:1px solid var(--line); border-radius:999px; padding:6px 11px; color:var(--muted); font-size:.9rem; background:#fbfcff; }
+    .project { display:flex; flex-direction:column; justify-content:space-between; min-height:220px; } .project-link { color:var(--accent-dark); font-weight:700; text-decoration:none; }
+    .future { background:#1c2436; color:#fff; } .future p { color:#c8cfdf; } .future .card { background:rgba(255,255,255,.06); border-color:rgba(255,255,255,.14); box-shadow:none; }
+    .contact { text-align:center; } .contact .section-intro { margin:0 auto; } .contact .actions { justify-content:center; }
+    footer { border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:.9rem; }
+    @media (max-width:650px) { .wrap { width:min(100% - 28px,1080px); } header { padding:17px 0; } .nav-links { gap:12px; font-size:.82rem; } .nav-links li:nth-child(1) { display:none; } .hero { padding:70px 0 80px; } section { padding:68px 0; } .grid { grid-template-columns:1fr; } .card { padding:22px; } }
+  </style>
+</head>
+<body>
+  <header><nav class="wrap" aria-label="Primary navigation"><a class="brand" href="#top">Amna Bibi</a><ul class="nav-links"><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></nav></header>
+  <main id="top">
+    <section class="hero"><div class="wrap"><div class="eyebrow">Lahore, Pakistan</div><h1>Building a thoughtful start in software.</h1><p>I’m Amna Bibi, a Computer Science Student and Aspiring Software Engineer, exploring how clean interfaces and practical technology can make everyday experiences better.</p><div class="actions"><a class="button primary" href="https://www.linkedin.com/in/amna-bibi-190756369?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a><a class="button secondary" href="https://github.com/amnabibi583" target="_blank" rel="noopener">GitHub</a><a class="button secondary" href="cv.pdf" target="_blank" rel="noopener">Download CV</a></div></div></section>
+    <section id="about"><div class="wrap"><div class="eyebrow">A little about me</div><h2>Curious, practical, and always learning.</h2><p class="section-intro">I’m studying Computer Science at the University of Education (Township), Lahore, where I’m developing a foundation in programming, web development, and problem-solving. My experience in home tutoring and school teaching has strengthened my communication, patience, and mentoring skills.</p><div class="grid"><article class="card"><div class="label">Education</div><h3>University of Education</h3><p>Township, Lahore<br>Current CGPA: <strong>3.24</strong></p></article><article class="card"><div class="label">Toolkit</div><h3>Skills I use</h3><div class="skills"><span class="skill">C</span><span class="skill">C++</span><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">Responsive Design</span><span class="skill">Microsoft Word</span><span class="skill">Excel</span><span class="skill">PowerPoint</span></div></article></div></div></section>
+    <section id="projects"><div class="wrap"><div class="eyebrow">Selected work</div><h2>Learning by making.</h2><div class="grid"><article class="card project"><div><div class="label">Featured project</div><h3>Responsive Amazon UI Clone</h3><p>A responsive interface practice project built with HTML, CSS, and JavaScript, focused on layout, components, and adapting the experience across screen sizes.</p></div><a class="project-link" href="https://github.com/amnabibi583" target="_blank" rel="noopener">View GitHub profile →</a></article><article class="card project"><div><div class="label">Ongoing practice</div><h3>Front-end practice projects</h3><p>Small exercises that build confidence with semantic HTML, modern CSS, JavaScript fundamentals, and responsive design.</p></div><span class="project-link">More to come →</span></article></div></div></section>
+    <section class="future"><div class="wrap"><div class="eyebrow">Next chapter</div><h2>Future work, in progress.</h2><div class="card"><h3>AI Fluency capstone</h3><p>This space is reserved for future capstone work and the FlyRank badge as the project develops. It will become a home for the next meaningful step in my learning journey.</p></div></div></section>
+    <section id="contact" class="contact"><div class="wrap"><div class="eyebrow">Let’s connect</div><h2>Have a project or opportunity in mind?</h2><p class="section-intro">For work, mentoring, or booking enquiries, feel free to reach out by email. I’d be happy to hear from you.</p><div class="actions"><a class="button primary" href="mailto:itsamnabibi1077@gmail.com?subject=Booking%20request%20for%20Amna%20Bibi">Request a booking</a><a class="button secondary" href="mailto:itsamnabibi1077@gmail.com">itsamnabibi1077@gmail.com</a></div></div></section>
+  </main>
+  <footer><div class="wrap">© 2026 Amna Bibi · Lahore, Pakistan</div></footer>
+</body>
+</html>
